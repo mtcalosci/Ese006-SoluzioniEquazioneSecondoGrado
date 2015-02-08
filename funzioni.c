@@ -9,13 +9,10 @@ int EsistonoSoluzioniReali(float a, float b, float c){
     determinante=CalcolaDeterminante( a, b, c);
     
     if(determinante<0){
-        return determinante;
-    }
-    else if(determinante>0){
-        return determinante;
-    }
-    else {
         return 0;
+    }
+    else(determinante>=0){
+        return 1;
     }
 }
 float CalcolaSoluzione1(float a, float b, float c){

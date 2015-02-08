@@ -18,15 +18,8 @@ int main(int argc, char** argv) {
     printf("Inserisci il coefficiente c:\n");
     scanf("%f", &c);
     
-    determinante=EsistonoSoluzioniReali(a,b,c);
-    if(determinante==0)
-    {
-            x1=CalcolaSoluzione1(a,b,c);
-            x2=CalcolaSoluzione2(a,b,c);
-            StampaRisultato(x1,x2);
-    }
-   
-    else if(determinante>0) 
+    
+    if(EsistonoSoluzioniReali(a,b,c))
     {
             x1=CalcolaSoluzione1(a,b,c);
             x2=CalcolaSoluzione2(a,b,c);
@@ -34,8 +27,9 @@ int main(int argc, char** argv) {
     }
     else
     {
-     printf("Non esistono soluzioni reali che soddisfano l'equazione data");   
-    }
+            printf("Non esistono soluzioni reali che soddisfano l'equazione data"); 
+    }  
+    
    
     
     return (EXIT_SUCCESS);
