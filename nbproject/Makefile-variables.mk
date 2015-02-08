@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Debug=eq
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/eq
+CND_ARTIFACT_NAME_Debug=equazioni
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/equazioni
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Debug=eq.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/eq.tar
+CND_PACKAGE_NAME_Debug=equazioni.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin_4.x-Windows/package/equazioni.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin_4.x-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin_4.x-Windows
-CND_ARTIFACT_NAME_Release=eq
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/eq
+CND_ARTIFACT_NAME_Release=equazioni
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin_4.x-Windows/equazioni
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin_4.x-Windows/package
-CND_PACKAGE_NAME_Release=eq.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/eq.tar
+CND_PACKAGE_NAME_Release=equazioni.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin_4.x-Windows/package/equazioni.tar
 #
 # include compiler specific variables
 #
