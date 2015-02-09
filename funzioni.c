@@ -11,7 +11,7 @@ int EsistonoSoluzioniReali(float a, float b, float c){
     if(determinante<0){
         return 0;
     }
-    else(determinante>=0){
+    else{
         return 1;
     }
 }
